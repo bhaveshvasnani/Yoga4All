@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Yoga4All</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="keywords" content="Yoga, WorkPlace Yoga, Health, Online Yoga Lessons, Learn Yoga Positions, Yoga Tutorial, Meditation, Stress management, Fitness"/>
+        <meta name="description" content="The perfect Yoga guide for anyone with time restriction providing accurate yoga exercises by a variety of yoga teachers."/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="icon" href="images/icon.png">
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Yoga4All</a>
+					<nav id="nav">
+						<a href="logout.php">Log Out</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+					<header class="major special">
+						<h1>Tell us about the problem</h1>
+					</header>
+
+					<section>
+							<form method="post" action="results.php">
+								<div class="row uniform 50%">
+									<div class="6u 12u$(xsmall)">
+										<input type="number" name="height" id="height" value="" placeholder="Height in cm" style="width: 250px"/>
+									</div>
+                                    <div class="6u 12u$(xsmall)">
+										<input type="number" name="weight" id="weight" value="" placeholder="Weight" style="width: 250px"/>
+									</div>
+                                    <div class="4u 12u$(xsmall)">
+										<input type="radio" id="male" name="gender" checked>
+										<label for="male">Male</label>
+									</div>
+									<div class="4u 12u$(xsmall)">
+										<input type="radio" id="female" name="gender">
+										<label for="female">Female</label>
+									</div>
+                                    <div class="12u$">
+										<div class="select-wrapper">
+											<select name="problem" id="problem">
+                                                <option value="">Select Problem</option>
+												<option value="eye">Eye Problem</option>
+												<option value="back">Back Problem</option>
+                                                <option value="hair">Hair Problem</option>
+												<option value="knee">Knee Problem</option>
+                                                <option value="stomach">Stomach Problem</option>
+											</select>
+										</div>
+									</div>
+									<div class="4u$ 12u$(xsmall)">
+										<input type="number" id="time" name="time" value="" placeholder="Time suffered in months" style="width: 250px"/>
+									</div>
+                                    <div class="6u 12u$(xsmall)">
+										<input type="number" name="age" id="age" value="" placeholder="Age" style="width: 250px"/>
+									</div>
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Show Results" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+        
+                </div>
+                </section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
